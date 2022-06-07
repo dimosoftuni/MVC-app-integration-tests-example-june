@@ -9,6 +9,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: akhileshns/heroku-deploy@v3.6.8
         with:
-          heroku_app_name: "some-app-name"
+          heroku_app_name: "softuni-demo-june"
           heroku_email: ${{secrets.HEROKU_EMAIL}}
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
